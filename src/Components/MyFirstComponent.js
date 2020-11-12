@@ -2,7 +2,7 @@ function MyFirstComponent() {
     return (
         <div className="MyFirstComponent">
                 <p>
-                    My second Component
+                    My first Component
                 </p>
         </div>
     );
