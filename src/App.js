@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import MyFirstComponent from "./Components/MyFirstComponent";
+import CWB from './Components/ComponentWithButton'
 
 function App() {
   return (
     <div className="App">
+      <CWB/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
