@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import MyFirstComponent from "./Components/MyFirstComponent";
 import ComponentWithButton from './Components/ComponentWithButton'
+import ComponentWithState from './Components/ComponentWithState'
 
 function App() {
   return (
     <div className="App">
       <ComponentWithButton/>
+      <ComponentWithState/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
