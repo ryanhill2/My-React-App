@@ -3,12 +3,17 @@ import './App.css';
 import MyFirstComponent from "./Components/MyFirstComponent";
 import ComponentWithButton from './Components/ComponentWithButton'
 import ComponentWithState from './Components/ComponentWithState'
+import Posts from './Components/Post'
+import PostForm from './Components/Postform'
 
 function App() {
   return (
     <div className="App">
       <ComponentWithButton/>
       <ComponentWithState/>
+      <PostForm/>
+      <Posts/>
+    
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
